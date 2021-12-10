@@ -1,6 +1,6 @@
 ## Installation
 
-To download this script and its dependencies, copy and paste the following commands into your bash terminal. This assumes that you already have [Python3 installed]([Installing Python 3 on Linux &#8212; The Hitchhiker&#39;s Guide to Python](https://docs.python-guide.org/starting/install3/linux/).
+To download this script and its dependencies, copy and paste the following commands into your bash terminal. This assumes that you already have [Python3 installed](https://docs.python-guide.org/starting/install3/linux/).
 
 ```bash
 # Install Dependencies
@@ -26,13 +26,13 @@ With the script downloaded, you must then perform these steps:
 
 * Run the script to generate all necessary files and folders.
 
-* Add a [cron]([cron - Wikipedia](https://en.wikipedia.org/wiki/Cron)) job to run the script at a set interval.
+* Add a [cron](https://en.wikipedia.org/wiki/Cron) job to run the script at a set interval.
   
   * e.g. `0 * * * * /bin/bash ~/downloading/youtube/download.sh > ~/downloading/youtube/download.log`
 
 ## Usage
 
-1. Find a video on YouTube, or any of the [sites supported by yt-dlp]([Supported sites &mdash; yt-dlp 2021.12.01 documentation](https://docs.yt-dlp.org/en/latest/supportedsites.html)), and copy the URL. 
+1. Find a video on YouTube, or any of the [sites supported by yt-dlp](https://docs.yt-dlp.org/en/latest/supportedsites.html), and copy the URL. 
 
 2. To download the full video, add the URL to a new line in `video_urls.txt`. 
 
