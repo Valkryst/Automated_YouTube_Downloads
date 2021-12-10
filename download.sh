@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd "/home/ubuntu/GitHub/Automated_YouTube_Downloads"
+
+
+
 # Prevent multiple instances of the script from being run.
 lockfile="$(pwd)/lockfile.tmp"
 if [ -f "$lockfile" ]; then

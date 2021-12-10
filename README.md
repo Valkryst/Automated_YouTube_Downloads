@@ -24,6 +24,10 @@ With the script downloaded, you must then perform these steps:
   
   * e.g. `~/downloading/youtube`
 
+* Edit the script and make the following change:
+  
+  * Change `/home/ubuntu/GitHub/Automated_YouTube_Downloads` to point to the folder in which you placed the script.
+
 * Run the script to generate all necessary files and folders.
 
 * Add a [cron](https://en.wikipedia.org/wiki/Cron) job to run the script at a set interval.
