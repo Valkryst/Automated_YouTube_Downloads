@@ -25,7 +25,7 @@ folder_video="$(pwd)/video"
 folders=( "$folder_audio" "$folder_video" )
 for folder_path in "${folders[@]}"
 do
-        if [[ ! -d "$folder_path" ]]; then
+        if [[ ! -f "$folder_path" ]]; then
                 mkdir "$folder_path"
                 echo "Created $folder_path"
         fi
