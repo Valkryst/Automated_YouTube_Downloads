@@ -47,3 +47,5 @@ With the script downloaded, you must then perform these steps:
 ## Important Notes
 
 Do not edit the `audio_urls.txt` or `video_urls.txt` files if `lockfile.tmp` exists. This file indicates that the script is currently running and it will most likely ignore any new URLs added to the `_urls.txt` files.
+
+If you add a playlist URL, it will download the entire playlist, regardless of whether the URL points to a specific video in the playlist.
