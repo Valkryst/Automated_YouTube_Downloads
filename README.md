@@ -10,7 +10,7 @@ sudo apt install ffmpeg wget
 
 
 # Download Script
-sudo wget https://github.com/Valkryst/Automated_YouTube_Downloads/blob/main/download.sh
+sudo wget https://raw.githubusercontent.com/Valkryst/Automated_YouTube_Downloads/main/download.sh
 
 
 
